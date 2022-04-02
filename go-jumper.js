@@ -24,7 +24,7 @@ async function checkLocalSite(url){
         //console.log(domain,domain[domain.length-2]+'.'+domain[domain.length-1])
         domain = {
             //二级域名请去除下一行的注释
-            check: (/*domain[domain.length-3]+'.'+*/domain[domain.length-2]+'.'+domain[domain.length-1]).split('/')[0],
+            check: (domain[domain.length-3]+'.'+domain[domain.length-2]+'.'+domain[domain.length-1]).split('/')[0],
             original: domain
         }
         //console.log(domain)
