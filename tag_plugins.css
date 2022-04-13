@@ -1927,8 +1927,8 @@ p.wave-clip.linear:hover {
 p.wave-clip.colorful:hover {
   background-image: linear-gradient(var(--deg), red, orange, yellow, green, cyan, blue, darkviolet), repeating-radial-gradient(circle at 0 0, #000 calc(var(--offset) - 5px), #000 var(--offset), #fff var(--offset), #fff calc(var(--offset) + 5px));
   background-blend-mode: screen;
-  -webkit-animation: move 0.5s infinite linear, rotate 20s infinite linear;
-          animation: move 0.5s infinite linear, rotate 20s infinite linear;
+  -webkit-animation: move 0.5s infinite linear;
+          animation: move 0.5s infinite linear;
 }
 
 @-webkit-keyframes move {
@@ -1940,15 +1940,5 @@ p.wave-clip.colorful:hover {
 @keyframes move {
   to {
     --offset: 15px;
-  }
-}
-@-webkit-keyframes rotate {
-  to {
-    --deg: 361deg;
-  }
-}
-@keyframes rotate {
-  to {
-    --deg: 361deg;
   }
 }
