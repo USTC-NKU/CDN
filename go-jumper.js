@@ -10,7 +10,7 @@ async function checkLink(){
     for(var i=0;i<link.length;i++){
         //如果你的博客添加了Gitter聊天窗，请去掉下方注释
         if(link[i].href==="" /*|| link[i].className==="gitter-open-chat-button"*/)continue;
-        if(!await checkLocalSite(link[i].href)){
+        if(!await checkLocalSite(link[i].href)&&link[i].type!="fancyimg"){
             link[i].href = "https://go-jumper-mu.vercel.app/#"+window.btoa(link[i].href)
             //console.log("edit.")
         }
