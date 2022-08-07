@@ -849,10 +849,10 @@ kbd {
   box-shadow: inset 0 0 20px #e8e8e8, 0 1px 0 #c3c3c3, 0 1px 0 #c9c9c9, 0 1px 2px #333;
   text-shadow: 0 1px 0 #f5f5f5;
 }
-#article-container .tag.link {
+#board .tag.link {
   text-align: center;
 }
-#article-container a.link-card {
+#board a.link-card {
   margin: 0.25rem auto;
   background: #f6f6f6;
   display: inline-flex;
@@ -865,10 +865,10 @@ kbd {
   border-radius: 12px;
   text-decoration: none;
 }
-#article-container a.link-card:hover {
+#board a.link-card:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 }
-#article-container a.link-card div.left {
+#board a.link-card div.left {
   width: 48px;
   height: 48px;
   margin: 12px;
@@ -876,12 +876,12 @@ kbd {
   flex-shrink: 0;
   position: relative;
 }
-#article-container a.link-card div.left i {
+#board a.link-card div.left i {
   font-size: 32px;
   line-height: 48px;
   margin-left: 4px;
 }
-#article-container a.link-card div.left img {
+#board a.link-card div.left img {
   display: block;
   position: absolute;
   border-radius: 8px/4;
@@ -889,39 +889,39 @@ kbd {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#article-container a.link-card div.right {
+#board a.link-card div.right {
   overflow: hidden;
   margin-right: 12px;
 }
-#article-container a.link-card p {
+#board a.link-card p {
   margin: 0;
 }
-#article-container a.link-card p.text {
+#board a.link-card p.text {
   font-weight: bold;
 }
-#article-container a.link-card p.url {
+#board a.link-card p.url {
   flex-shrink: 0;
   color: rgba(68,68,68,0.65);
   font-size: 13px;
 }
 @media screen and (max-width: 425px) {
-  #article-container a.link-card {
+  #board a.link-card {
     max-width: 100%;
   }
 }
 @media screen and (max-width: 375px) {
-  #article-container a.link-card {
+  #board a.link-card {
     width: 100%;
   }
 }
-#article-container a.link-card div.left,
-#article-container a.link-card div.right {
+#board a.link-card div.left,
+#board a.link-card div.right {
   pointer-events: none;
 }
-[data-theme="dark"] #article-container a.link-card {
+[data-theme="dark"] #board a.link-card {
   filter: brightness(0.7);
 }
-[data-theme="dark"] #article-container a.link-card img {
+[data-theme="dark"] #board a.link-card img {
   filter: brightness(1);
 }
 audio,
@@ -1660,7 +1660,7 @@ div.timenode .meta:after {
 [data-theme="dark"] .tip {
   filter: brightness(0.7);
 }
-#article-container .tip a {
+#board .tip a {
   color: #e6eaed;
 }
 
@@ -1945,7 +1945,7 @@ p.wave-clip.colorful:hover {
 /* 随机测试修改 */
 /*              */
 
-#article-container .tag-Link {
+#board .tag-Link {
   background: var(--heo-secondbg);
   border-radius: 8px!important;
   display: flex;
@@ -1956,11 +1956,11 @@ p.wave-clip.colorful:hover {
   margin-top: 1rem;
 }
 
-#article-container .tag-Link:hover {
+#board .tag-Link:hover {
   border: var(--style-border-hover);
 }
 
-#article-container .tag-Link .tag-link-tips {
+#board .tag-Link .tag-link-tips {
   border-bottom: var(--style-border);
   padding-bottom: 4px;
   font-size: 0.6rem;
@@ -1968,44 +1968,44 @@ p.wave-clip.colorful:hover {
   font-weight: normal;
 }
 
-#article-container .tag-Link:hover .tag-link-tips {
+#board .tag-Link:hover .tag-link-tips {
   color: var(--heo-white);
 }
 
-#article-container .tag-Link .tag-link-bottom {
+#board .tag-Link .tag-link-bottom {
   display: flex;
   margin-top: 0.5rem;
   align-items: center;
   justify-content: space-around;
 }
 
-#article-container .tag-Link .tag-link-bottom .tag-link-left {
+#board .tag-Link .tag-link-bottom .tag-link-left {
   width: 60px;
   min-width: 60px;
   height: 60px;
   background-size: cover;
 }
 
-#article-container .tag-Link .tag-link-bottom .tag-link-right {
+#board .tag-Link .tag-link-bottom .tag-link-right {
   margin-left: 1rem;
 }
 
-#article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-title {
+#board .tag-Link .tag-link-bottom .tag-link-right .tag-link-title {
   font-size: 1rem;
   line-height: 1.2;
 }
 
-#article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-sitename {
+#board .tag-Link .tag-link-bottom .tag-link-right .tag-link-sitename {
   font-size: 0.7rem;
   color: var(--heo-gray);
   font-weight: normal;
   margin-top: 4px;
 }
 
-#article-container .tag-Link:hover .tag-link-bottom .tag-link-right .tag-link-sitename {
+#board .tag-Link:hover .tag-link-bottom .tag-link-right .tag-link-sitename {
   color: var(--heo-white);
 }
 
-#article-container .tag-Link .tag-link-bottom i {
+#board .tag-Link .tag-link-bottom i {
   margin-left: auto;
 }
