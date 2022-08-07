@@ -2009,3 +2009,22 @@ p.wave-clip.colorful:hover {
 .tag-Link .tag-link-bottom i {
   margin-left: auto;
 }
+
+:root {
+  --style-border: 1px solid var(--heo-card-border);
+  --style-border-hover: 1px solid var(--heo-main);
+  --heo-main: var(--heo-theme);
+  --heo-white: #fff;
+  --heo-gray: #999999;
+}
+[data-theme=light]{
+  --heo-theme: #425AEF;
+  --heo-secondbg: #f1f3f8;
+  --heo-card-border: #e3e8f7;
+  
+}
+[data-theme=dark]{
+  --heo-theme: #0084FF;
+  --heo-secondbg: #30343f;
+  --heo-card-border: #42444a;
+}
